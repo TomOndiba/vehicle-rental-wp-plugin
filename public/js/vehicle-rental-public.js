@@ -44,8 +44,19 @@
         'autoclose': true
     });
 
+$('#demographicForm .date').datepicker({
+    'format': 'yyyy-m-d',
+    'autoclose': true
+});
+
     // initialize datepair
     $('#datepairExample').datepair();
+    $('#demographicForm').datepair();
+
+
+
+
+
 
 
 //})( jQuery );

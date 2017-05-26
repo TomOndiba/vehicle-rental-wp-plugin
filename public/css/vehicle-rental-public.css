@@ -12,6 +12,75 @@
  */
 
 
+/*! CSS Used from: http://localhost/vr_test/wordpress/wp-content/themes/shopkeeper/css/styles.css?ver=2.0.6 */
+.btn{color:inherit;font:inherit;margin:0;}
+.btn{overflow:visible;}
+.btn{text-transform:none;}
+.btn{-webkit-appearance:button;cursor:pointer;}
+.btn::-moz-focus-inner{border:0;padding:0;}
+
+
+
+
+.error label,  .error label.error{
+    color: #f58370 !important;
+}
+
+.vr_plg_form span.error, small.error{ display: inline-block;
+    padding: inherit;
+    margin-top: none;
+    margin-bottom: inherit;
+    font-weight: bold;
+    font-style: normal;
+    background: none;
+    margin-left: 8px;
+    color: #f58370 !important;
+}
+
+.vr_plg_form span.error{
+    font-size: 10px !important;
+}
+
+
+
+/*Image upload*/
+#image-preview {
+
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(136, 136, 136, 0.31);
+    color: #ecf0f1;
+}
+#image-preview input {
+    line-height: 200px;
+    font-size: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+#image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+/* end Image upload*/
+
+
+
 .translucent-form-overlay-size {
     width: 100%;
     max-width: 500px;
@@ -52,3 +121,48 @@ background-color: rgba(54, 54, 54, 0.8);
 
 .translucent-form-overlay div{padding-bottom:6px; }
 .btn-div{padding-top: 04px;}
+
+.margin-top-10{margin-top: 10%;}
+.intro h2 {color: #ffffff; text-align: center;}
+.margin-top-5{margin-top: 6%;}
+.margin-top-10{margin-top: 11%;}
+.bg-calender{  background: url('http://revelwallpapers.net/d/736D747070594C483664764C646F754378704B4B3365485334644B64/mood_bicycle-wheel-sea-water-sky-trees-foliage-sun-clouds.jpg') no-repeat center center;}
+.bg-demographic {  background: url('http://revelwallpapers.net/d/736D747070594C483664764C646F754378704B4B3365485334644B64/mood_bicycle-wheel-sea-water-sky-trees-foliage-sun-clouds.jpg') no-repeat center center;}
+.hero {
+
+    background-size: cover;
+    height: 100vh;
+&:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+     opacity: .8;
+ }
+.intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tech-img {
+    background: url('http://static.pexels.com/wp-content/uploads/2015/02/apple-hand-iphone-6-4322-525x350.jpg') no-repeat center center;
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 40.063em) {
+    .tech-img {
+        height: 18rem;
+        width: 18rem;
+    }
+
+}
+}
