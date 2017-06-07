@@ -41,6 +41,9 @@
     font-size: 10px !important;
 }
 
+/*Docusign*/
+
+/*end-Docusign*/
 
 
 /*Image upload*/
@@ -126,6 +129,7 @@ background-color: rgba(54, 54, 54, 0.8);
 .intro h2 {color: #ffffff; text-align: center;}
 .margin-top-5{margin-top: 6%;}
 .margin-top-10{margin-top: 11%;}
+.margin-btn-6{margin-bottom: 6px;}
 .bg-calender{  background: url('http://revelwallpapers.net/d/736D747070594C483664764C646F754378704B4B3365485334644B64/mood_bicycle-wheel-sea-water-sky-trees-foliage-sun-clouds.jpg') no-repeat center center;}
 .bg-demographic {  background: url('http://revelwallpapers.net/d/736D747070594C483664764C646F754378704B4B3365485334644B64/mood_bicycle-wheel-sea-water-sky-trees-foliage-sun-clouds.jpg') no-repeat center center;}
 .hero {

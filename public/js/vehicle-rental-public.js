@@ -55,7 +55,7 @@ $('#demographicForm .date').datepicker({
 
 
 
-
+//$("#docuIframe").contents().find("#otherActionsButton").remove();
 
 
 
